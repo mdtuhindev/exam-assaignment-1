@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    padding: 2rem 9%;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    background: #B68C5A;
+    border-radius: 10px;
+}
+
+
+/* Header Section */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.bars {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.bars li a {
+    text-decoration: none;
+    color: #707070;
+}
+
+/* Hero Section */
+
+.hero-section {
+    background-image: url('images/banner.png');
+    margin: 2rem 9%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.form {
+    margin-left: 166px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form input {
+    background: #FFFFFF;
+    padding: 10px 100px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+/* Legal section */
+
+.legal-section {
+    margin-top: 100px;
+}
+
+.legal-section h2 {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'EB Garamond', serif;
+    color: #414040;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.legal-section p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #707070;
+    text-align: center;
+}
+
+.box-container {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.box {
+    text-align: center;
+}
+
+.box .legal-img {
+    width: 70px;
+    height: 70px;
+}
+
+.box h3 {
+    font-size: 30px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 800;
+    margin-bottom: 15px;
+    color: #414040;
+}
+
+.box span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* Information Section */
+
+.info-section {
+    background-image: url('images/banner.png');
+    margin: 2rem 9%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.info-text h1 {
+    font-size: 30px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info-text p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+/* QNA Section */
+
+.qna-content {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.qna-text {
+    width: 50%;
+}
+
+.heading h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.qna-section p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-text {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 35px;
+}
+
+.card-text h2 {
+    font-family: 'EB Garamond', serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: #414040;
+    margin-bottom: 15px;
+}
+
+.card-text p {
+    font-size: 16px;
+    color: #707070;
+}
+
+.qna-img {
+    width: 560px;
+}
+
+.qna-img img {
+    width: 100%;
+}
+
+/* contact section */
+
+.heading h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.heading p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.contact-container {
+    width: 570px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cnt-box {
+    text-align: center;
+    background: #F3F3F3;
+    padding: 50px;
+    border: 0.5px solid black;
+}
+
+.cnt-box h3 {
+    font-size: 20px;
+    color: #414040;
+    margin-bottom: 15px;
+}
+
+.form-second {
+    width: 525px;
+}
+.form-second form {
+    width: 100%;
+}
+
+.form-second form input {
+    background: #F3F3F3;
+    padding: 20px 100px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.form-second form textarea {
+    background: #F3F3F3;
+    padding: 20px 80px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.btn2 {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 180px;
+    color: #fff;
+    background: #B68C5A;
+    border-radius: 10px;
+}
+
+/* footer section */
+
+.footer-section {
+    margin-top: 100px;
+    display: grid;
+    background: #111111;
+    padding: 100px;
+    color: #FFFFFF;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-title {
+    font-family: 'EB Garamond', serif;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.links ul li a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.form-3 form input {
+    margin-top: 15px;
+    background: #FFFFFF;
+    padding: 10px 27px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+.form-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+
+
+
+
+
+
+
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .container {
+        padding: 1rem 9%;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    .logo img {
+        width: 50%;
+    }
+
+    .footer-section {
+        margin-top: 100px;
+        display: grid;
+        background: #111111;
+        padding: 100px;
+        color: #FFFFFF;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .footer-section {
+        margin-top: 100px;
+        display: grid;
+        background: #111111;
+        padding: 100px;
+        color: #FFFFFF;
+        grid-template-columns: repeat(2, 1fr);
+    }
+        .form-second form input {
+        padding: 20px 221px;
+    }
+    .qna-img img {
+        width: 100%;
+    }
+    .qna-content {
+       flex-wrap: wrap;
+    }
+    .qna-text {
+        width: 100%;
+    }
+    
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .hero-text h1 {
+        font-size: 40px;
+    }
+    .hero-text p {
+        font-size: 11px;
+    }
+    .box-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .legal-section p {
+        font-size: 13px;
+    }
+    .heading p {
+        font-size: 13px;
+    }
+    .form input {
+        margin: -18px -83px;
+    }
+
+    .form-second form input {
+        padding: 20px 226px;
+    }
+
+    .footer-text p {
+        font-size: 12px;
+    }
+
+    .footer-title {
+        font-size: 12px;
+    }
+
+    .footer-section {
+        gap: 63px;
+    }
+
+    .cnt-box img {
+        width: 35px;
+    }
+
+    .cnt-box p {
+        font-size: 11px;
+    }
+
+    .cnt-box {
+        padding: 20px;
+    }
+    .bars {
+        display: none;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .btn2 {
+        padding: 20px 153px;
+    }
+    .content {
+        flex-wrap: wrap;
+    }
+    .contact-container {
+        width: 100%;
+    }
+    .form-second form input {
+        padding: 20px 371px;
+    }
+    .form-second form textarea {
+        padding: 20px 354px;
+    }
+    
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+    .btn2 {
+        padding: 20px 153px;
+    }
+
+}
